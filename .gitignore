@@ -1,0 +1,13 @@
+*.nds
+*.7z
+*.gba
+work/
+build/
+__pycache__/
+# 공개 제외: 원본 배포 부속, 롬 유래 덤프, 외부 도구
+0099*
+ref/
+external/
+translations/ds_src.json
+*.sav
+*.dsv
