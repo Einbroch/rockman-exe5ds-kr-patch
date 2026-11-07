@@ -106,6 +106,10 @@ t_s:
     movs r0, #0xe0
     ldrh r4, [r7, r0]
     adds r1, r4, #1
+    cmp r1, #83
+    bne t_m
+    movs r1, #92
+t_m:
     cmp r1, #SLOTS
     bne t_n
     movs r1, #0
